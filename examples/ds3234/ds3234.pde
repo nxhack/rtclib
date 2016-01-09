@@ -66,7 +66,7 @@ void setup () {
       a_bits, a_Dy, a_h12, a_PM);
   Serial.println("Enabling Alarm 1");
   RTC.turnOnAlarm(1);
-  RTC.enableOscillator(false,
+  RTC.enableOscillator(false, false, 0);
 }
 
 void loop () {
