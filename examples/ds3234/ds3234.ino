@@ -2,7 +2,7 @@
 
 #include <SPI.h>
 #include <Wire.h>  // not used here, but needed to prevent a RTClib compile error
-#include <RTClib.h>
+#include <RTC_DS3234.h>
 
 
 // Avoid spurious warnings
